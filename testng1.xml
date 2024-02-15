@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<test thread-count="1" name="Test Case">
+		<classes>
+			<class name="Testcases.TestcaseLoginPage" />
+			<class name="Testcases.TestcaseHomePage" />
+			<class name="Testcases.TestcaseSearchPersonPage" />
+			<class name="Testcases.TestcaseRegisterPersonPage" />
+			<class name="Testcases.TestcaseClientOutcomesPage" />
+			<class name="Testcases.TestcaseNewApplicationPage" />
+			<class name="Testcases.TestcaseClaimantInfoPage" />
+			<class name="Testcases.TestcaseClaimantDetailsPage" />
+			<class name="Testcases.TestcaseReviewClaimantDetailsPage" />
+			<class name="Testcases.TestcaseSaveApplicationPage" />
+			<class name="Testcases.TestcaseSubmitApplicationPage" />
+			<class name="Testcases.TestcaseApplicationStatusPage" />
+			<class name="Testcases.TestcaseVerifyPersonRegistered" />
+		</classes>
+	</test>
+</suite>
